@@ -1,0 +1,1 @@
+toco --graph_def_file ./frozen_inference_graph.pb --output_file test.tflite --input_format=TENSORFLOW_GRAPHDEF --output_format=TFLITE --inference_type=QUANTIZED_UINT8 --input_shape='1,300,300,3' --input_array='FeatureExtractor/MobilenetV2/MobilenetV2/input' --output_array='concat,concat_1' --std_dev_value 1 --mean_value 0 --default_ranges_min 0 --default_ranges_max=255

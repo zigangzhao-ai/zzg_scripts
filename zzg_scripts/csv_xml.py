@@ -123,7 +123,6 @@ for filename,label in total_csv_annotations.items():
                 print(filename,xmin,ymin,xmax,ymax)
         xml.write('</annotation>')
         
-
 #6.split files for txt
 txtsavepath = saved_path + "ImageSets/Main/"
 ftrainval = open(txtsavepath+'/trainval.txt', 'w')

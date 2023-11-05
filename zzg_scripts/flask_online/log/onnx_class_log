@@ -1,0 +1,17 @@
+[2023-11-05 13:13:56.743] [1199] [ERROR] - __init__.onnx_class (__init__.py:141) - inference error !!!Traceback (most recent call last):
+  File "/code/zzg/project/study/flask_online/app/__init__.py", line 123, in onnx_class
+    img_pth = get_data['image_pth']
+KeyError: 'image_pth'
+
+[2023-11-05 13:13:56.743] [1199] [ERROR] - __init__.onnx_class (__init__.py:146) - return json: {"pred_out": null, "flag": 1, "use_time": 0.0, "error_msg": "\u6210\u529f", "error_code": 0}
+[2023-11-05 13:14:32.641] [1599] [ERROR] - __init__.onnx_class (__init__.py:141) - inference error !!!Traceback (most recent call last):
+  File "/code/zzg/project/study/flask_online/app/__init__.py", line 123, in onnx_class
+    img_pth = get_data['image_pth']
+KeyError: 'image_pth'
+
+[2023-11-05 13:14:32.643] [1599] [ERROR] - __init__.onnx_class (__init__.py:146) - return json: {"pred_out": null, "flag": 1, "use_time": 0.0, "error_msg": "\u6210\u529f", "error_code": 0}
+[2023-11-05 13:17:59.819] [2980] [INFO] - __init__.onnx_class (__init__.py:135) - return json: {"pred_out": 3, "flag": 0, "use_time": 1.18, "error_msg": "\u6210\u529f", "error_code": 0}
+[2023-11-05 13:18:40.690] [3415] [INFO] - __init__.onnx_class (__init__.py:135) - return json: {"pred_out": 3, "flag": 0, "use_time": 1.15, "error_msg": "\u6210\u529f", "error_code": 0}
+[2023-11-05 13:28:57.559] [4163] [INFO] - __init__.onnx_class (__init__.py:120) - return json: {"pred_out": 0, "flag": 0, "use_time": 1.4, "error_msg": "\u6210\u529f", "error_code": 0}
+[2023-11-05 13:36:55.800] [8406] [INFO] - __init__.onnx_class (__init__.py:120) - return json: {"pred_out": 468, "flag": 0, "use_time": 0.96, "error_msg": "\u6210\u529f", "error_code": 0}
+[2023-11-05 13:38:17.604] [9069] [INFO] - __init__.onnx_class (__init__.py:120) - return json: {"pred_out": 468, "flag": 0, "use_time": 0.96, "error_msg": "\u6210\u529f", "error_code": 0}
